@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "mongo-escape": "^2.0.6",
+    "mongodb-query-parser": "^2.4.2",
+    "mongoose": "^5.13.3",
+    "mongoose-paginate-v2": "^1.4.1"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
