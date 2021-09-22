@@ -1,5 +1,3 @@
-const mongoSanitize = require('express-mongo-sanitize')
-const me = require('mongo-escape').escape
 module.exports = function queryPlugin(schema, options) {
   console.log(options)
   schema.statics.queryPaginate = function (
